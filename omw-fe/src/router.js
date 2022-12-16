@@ -2,6 +2,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import App from './App';
 import ErrorPage from './pages/ErrorPage';
 import SectionsPage from './pages/SectionsPage';
+import SettingsPage from './pages/SettingsPage';
 
 const sections = [
   {
@@ -241,6 +242,10 @@ const router = createBrowserRouter([
       {
         path: '/sections',
         element: <SectionsPage sections={sections} />,
+      },
+      {
+        path: '/settings',
+        element: <SettingsPage />,
       },
     ],
   },

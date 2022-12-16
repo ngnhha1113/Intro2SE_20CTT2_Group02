@@ -3,34 +3,34 @@ import Navigation from './components/Navigation';
 
 const navItems = [
   {
-    id: -1,
-    icon: 'uil:user',
-    route: '/profile',
-  },
-  {
     id: 0,
     icon: 'uil:home-alt',
     route: '/',
   },
   {
     id: 1,
+    icon: 'uil:user',
+    route: '/profile',
+  },
+  {
+    id: 2,
     icon: 'uil:package',
     route: '/sections',
   },
   {
-    id: 2,
+    id: 3,
     icon: 'uil:truck',
     route: '/delivery',
   },
   {
-    id: 3,
+    id: 4,
     icon: 'uil:bell',
-    route: 'notifications',
+    route: '/notifications',
   },
   {
-    id: 4,
+    id: 5,
     icon: 'uil:setting',
-    route: 'settings',
+    route: '/settings',
   },
 ];
 
