@@ -30,7 +30,7 @@ export default function Delivery() {
           <div
             key={id}
             className={`${
-              activeId === id ? 'bg-orange-200' : ''
+              activeId === id ? 'bg-slate-200' : ''
             } cursor-pointer font-bold p-2 rounded-lg`}
             onClick={() => setActiveId(id)}
           >
@@ -49,7 +49,7 @@ export default function Delivery() {
 function Item({ id, type, time }) {
   return (
     <div className="my-4 flex gap-4">
-      <div className="h-12 w-12 rounded-xl bg-orange-400 flex items-center justify-center">
+      <div className="h-12 w-12 rounded-xl bg-slate-400 flex items-center justify-center">
         <Icon icon="uil:box" className="text-3xl text-white" />
       </div>
       <div className="flex flex-col justify-center">

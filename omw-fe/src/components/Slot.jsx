@@ -7,7 +7,7 @@ export default function Slot({ isLoaded, id, status }) {
     <Popover content={<SlotDetail id={id} status={status} />}>
       <div
         className={`h-8 w-8 rounded-lg ${
-          isLoaded ? 'bg-orange-400' : 'bg-orange-200'
+          isLoaded ? 'bg-slate-600' : 'bg-slate-200'
         }`}
       ></div>
     </Popover>

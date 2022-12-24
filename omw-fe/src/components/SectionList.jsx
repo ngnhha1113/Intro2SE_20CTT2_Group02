@@ -9,8 +9,8 @@ export default function SectionList({ sections, activeId, setActiveId }) {
         {sections.map(({ id, name, used, received, sent, expected }) => (
           <div
             key={id}
-            className={`flex items-center justify-between p-4 rounded-xl cursor-pointer ${
-              activeId === id ? 'bg-emerald-100' : ''
+            className={`flex items-center justify-between p-4 rounded-xl cursor-pointer hover:bg-slate-100 ${
+              activeId === id ? 'bg-slate-200' : ''
             }`}
             onClick={() => setActiveId(id)}
           >
