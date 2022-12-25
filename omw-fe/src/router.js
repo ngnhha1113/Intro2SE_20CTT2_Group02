@@ -244,11 +244,17 @@ const router = createBrowserRouter([
         element: <SectionsPage sections={sections} />,
       },
       {
+        path: '/orders',
+        element: <OrderPage />,
+      },
+      {
         path: '/settings',
         element: <SettingsPage />,
       },
     ],
   },
 ]);
+
+
 
 export default router;
